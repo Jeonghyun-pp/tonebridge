@@ -1,0 +1,52 @@
+[
+  {
+    "song": "Master of Puppets",
+    "artist": "Metallica",
+    "section": "riff",
+    "expected": {
+      "settings": { "gain": 7, "bass": 5, "mid": 5, "treble": 6, "presence": 6 },
+      "pedalCategories": ["overdrive"],
+      "confidenceMin": 0.6
+    }
+  },
+  {
+    "song": "Sweet Child O Mine",
+    "artist": "Guns N Roses",
+    "section": "intro",
+    "expected": {
+      "settings": { "gain": 7, "bass": 6, "mid": 5, "treble": 7, "presence": 7 },
+      "pedalCategories": ["wah"],
+      "confidenceMin": 0.6
+    }
+  },
+  {
+    "song": "Back in Black",
+    "artist": "AC/DC",
+    "section": "riff",
+    "expected": {
+      "settings": { "gain": 5, "bass": 5, "mid": 6, "treble": 6, "presence": 5 },
+      "pedalCategories": [],
+      "confidenceMin": 0.6
+    }
+  },
+  {
+    "song": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "section": "chorus",
+    "expected": {
+      "settings": { "gain": 8, "bass": 5, "mid": 5, "treble": 6, "presence": 5 },
+      "pedalCategories": ["distortion"],
+      "confidenceMin": 0.5
+    }
+  },
+  {
+    "song": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "section": "riff",
+    "expected": {
+      "settings": { "gain": 6, "bass": 6, "mid": 5, "treble": 5, "presence": 5 },
+      "pedalCategories": ["pitch"],
+      "confidenceMin": 0.5
+    }
+  }
+]

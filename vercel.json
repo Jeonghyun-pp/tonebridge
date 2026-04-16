@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "crons": [
+    {
+      "path": "/api/cron/nightly-eval",
+      "schedule": "0 2 * * *"
+    }
+  ],
+  "functions": {
+    "app/api/cron/nightly-eval/route.ts": { "maxDuration": 300 },
+    "app/api/research-tone/route.ts": { "maxDuration": 60 },
+    "app/api/adapt-tone/route.ts": { "maxDuration": 60 },
+    "app/api/stripe/webhook/route.ts": { "maxDuration": 30 }
+  }
+}
