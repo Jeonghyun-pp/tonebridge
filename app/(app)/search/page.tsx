@@ -14,6 +14,7 @@
  */
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { Search, Loader2 } from "lucide-react";
 
 interface SongHit {
@@ -36,6 +37,7 @@ export default function SearchPage() {
   const [searching, setSearching] = useState(false);
   const [generating, setGenerating] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [showUpgrade, setShowUpgrade] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
@@ -97,7 +99,8 @@ export default function SearchPage() {
       const j1 = await r1.json();
       if (!r1.ok || !j1.ok) {
         if (j1.reason === "limit_exceeded") {
-          setError(j1.canUpgrade ? "Daily limit reached. Upgrade to Pro for more." : "Daily limit reached.");
+          setError(j1.canUpgrade ? "Daily limit reached." : "Daily limit reached. Try again tomorrow.");
+          setShowUpgrade(Boolean(j1.canUpgrade));
         } else if (j1.reason === "rate_limited") {
           setError("Slow down a moment — too many requests.");
         } else {
@@ -223,8 +226,16 @@ export default function SearchPage() {
         </div>
 
         {error && (
-          <div className="rounded-md border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-800 dark:bg-red-950 dark:text-red-200 dark:border-red-900">
-            {error}
+          <div className="rounded-md border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-800 dark:bg-red-950 dark:text-red-200 dark:border-red-900 flex items-center justify-between gap-3">
+            <span>{error}</span>
+            {showUpgrade && (
+              <Link
+                href="/pricing"
+                className="rounded-md bg-zinc-900 dark:bg-zinc-100 text-zinc-50 dark:text-zinc-900 px-3 py-1 text-xs font-medium hover:opacity-90"
+              >
+                Upgrade to Pro
+              </Link>
+            )}
           </div>
         )}
 

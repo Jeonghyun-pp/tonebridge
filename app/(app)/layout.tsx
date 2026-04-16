@@ -12,6 +12,7 @@ import { redirect } from "next/navigation";
 import { headers } from "next/headers";
 import { getSession } from "@/lib/auth";
 import Link from "next/link";
+import { CreditsDisplay } from "@/components/credits-display";
 
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   const session = await getSession();
@@ -35,6 +36,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
           ToneBridge
         </Link>
         <nav className="flex items-center gap-4 text-sm">
+          <CreditsDisplay />
           <Link href="/search" className="hover:underline">
             Search
           </Link>
