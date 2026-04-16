@@ -1,0 +1,573 @@
+[
+  {
+    "brand": "Ibanez",
+    "model": "TS9 Tube Screamer",
+    "category": "overdrive",
+    "subcategory": "tube_screamer",
+    "character_tags": ["mid_hump", "tightening", "transparent_at_low_drive"],
+    "typical_settings": { "drive": "2-4", "tone": "5-6", "level": "7-9" },
+    "aliases": ["TS9", "Tube Screamer"],
+    "popularity": 100
+  },
+  {
+    "brand": "Ibanez",
+    "model": "TS808",
+    "category": "overdrive",
+    "subcategory": "tube_screamer",
+    "character_tags": ["mid_hump", "smoother_than_TS9", "vintage"],
+    "typical_settings": { "drive": "3-5", "tone": "5-6", "level": "7-9" },
+    "aliases": ["TS808"],
+    "popularity": 90
+  },
+  {
+    "brand": "Boss",
+    "model": "SD-1 Super Overdrive",
+    "category": "overdrive",
+    "subcategory": "asymmetric",
+    "character_tags": ["mid_hump", "asymmetric_clipping", "warm"],
+    "typical_settings": { "drive": "3-5", "tone": "5-6", "level": "7-8" },
+    "aliases": ["SD-1"],
+    "popularity": 95
+  },
+  {
+    "brand": "Fulltone",
+    "model": "OCD",
+    "category": "overdrive",
+    "subcategory": "transparent",
+    "character_tags": ["transparent", "amp_like", "dynamic"],
+    "typical_settings": { "drive": "5-7", "tone": "5-6", "volume": "7" },
+    "aliases": [],
+    "popularity": 75
+  },
+  {
+    "brand": "Klon",
+    "model": "Centaur",
+    "category": "overdrive",
+    "subcategory": "klon",
+    "character_tags": ["transparent", "boost_capable", "clean_blend"],
+    "typical_settings": { "gain": "2-5", "tone": "5", "output": "8" },
+    "aliases": ["Klon", "Centaur"],
+    "popularity": 80
+  },
+  {
+    "brand": "JHS",
+    "model": "Morning Glory",
+    "category": "overdrive",
+    "subcategory": "transparent",
+    "character_tags": ["transparent", "low_gain", "blues"],
+    "typical_settings": { "drive": "4-6", "tone": "5", "volume": "7" },
+    "aliases": ["Morning Glory"],
+    "popularity": 65
+  },
+  {
+    "brand": "Wampler",
+    "model": "Tumnus",
+    "category": "overdrive",
+    "subcategory": "klon_clone",
+    "character_tags": ["klon_clone", "transparent", "boost_capable"],
+    "typical_settings": { "gain": "3-6", "treble": "5", "volume": "8" },
+    "aliases": ["Tumnus"],
+    "popularity": 70
+  },
+  {
+    "brand": "Boss",
+    "model": "BD-2 Blues Driver",
+    "category": "overdrive",
+    "subcategory": "transparent",
+    "character_tags": ["transparent", "open", "blues"],
+    "typical_settings": { "gain": "4-6", "tone": "5-6", "level": "7" },
+    "aliases": ["BD-2"],
+    "popularity": 80
+  },
+  {
+    "brand": "ProCo",
+    "model": "Rat",
+    "category": "distortion",
+    "subcategory": "rat",
+    "character_tags": ["aggressive", "fuzzy_at_high_gain", "iconic"],
+    "typical_settings": { "distortion": "5-8", "filter": "5", "volume": "5" },
+    "aliases": ["Rat"],
+    "popularity": 90
+  },
+  {
+    "brand": "EHX",
+    "model": "East River Drive",
+    "category": "overdrive",
+    "subcategory": "tube_screamer_clone",
+    "character_tags": ["tube_screamer_clone", "budget"],
+    "typical_settings": { "drive": "4-6", "tone": "5", "volume": "7" },
+    "aliases": [],
+    "popularity": 50
+  },
+  {
+    "brand": "Mythos",
+    "model": "Mjolnir",
+    "category": "overdrive",
+    "subcategory": "klon_clone",
+    "character_tags": ["klon_clone", "boutique"],
+    "aliases": [],
+    "popularity": 35
+  },
+  {
+    "brand": "Greer",
+    "model": "Lightspeed",
+    "category": "overdrive",
+    "subcategory": "transparent",
+    "character_tags": ["transparent", "low_gain", "boutique"],
+    "aliases": [],
+    "popularity": 45
+  },
+  {
+    "brand": "Boss",
+    "model": "DS-1 Distortion",
+    "category": "distortion",
+    "subcategory": "classic",
+    "character_tags": ["bright", "aggressive", "punk", "indie"],
+    "typical_settings": { "dist": "5-7", "tone": "4-5", "level": "6" },
+    "aliases": ["DS-1"],
+    "popularity": 85
+  },
+  {
+    "brand": "MXR",
+    "model": "M104 Distortion+",
+    "category": "distortion",
+    "subcategory": "asymmetric",
+    "character_tags": ["asymmetric", "warm", "70s"],
+    "typical_settings": { "distortion": "4-6", "output": "7" },
+    "aliases": ["Distortion+"],
+    "popularity": 60
+  },
+  {
+    "brand": "MXR",
+    "model": "M75 Super Badass Distortion",
+    "category": "distortion",
+    "subcategory": "modern",
+    "character_tags": ["modern", "tight", "metal"],
+    "typical_settings": { "gain": "5-8", "bass": "5", "mid": "6", "treble": "5", "volume": "7" },
+    "aliases": ["Super Badass"],
+    "popularity": 55
+  },
+  {
+    "brand": "Boss",
+    "model": "MT-2 Metal Zone",
+    "category": "distortion",
+    "subcategory": "metal",
+    "character_tags": ["high_gain", "scooped_mid", "metal"],
+    "typical_settings": { "dist": "7", "low": "5", "mid_freq": "5", "mid": "5", "high": "7", "level": "5" },
+    "aliases": ["MT-2", "Metal Zone"],
+    "popularity": 70
+  },
+  {
+    "brand": "Wampler",
+    "model": "Plexi-Drive",
+    "category": "distortion",
+    "subcategory": "marshall",
+    "character_tags": ["marshall_voiced", "midforward"],
+    "typical_settings": { "gain": "5-7", "tone": "5", "volume": "6" },
+    "aliases": [],
+    "popularity": 55
+  },
+  {
+    "brand": "EHX",
+    "model": "Big Muff Pi",
+    "category": "fuzz",
+    "subcategory": "muff",
+    "character_tags": ["wall_of_fuzz", "scooped_mid", "sustained"],
+    "typical_settings": { "volume": "5", "tone": "5-6", "sustain": "6-9" },
+    "aliases": ["Big Muff", "Muff"],
+    "popularity": 90
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Fuzz Face Mini",
+    "category": "fuzz",
+    "subcategory": "fuzz_face",
+    "character_tags": ["vintage", "responsive", "hendrix"],
+    "typical_settings": { "fuzz": "6-9", "volume": "5-7" },
+    "aliases": ["Fuzz Face"],
+    "popularity": 80
+  },
+  {
+    "brand": "ZVex",
+    "model": "Fuzz Factory",
+    "category": "fuzz",
+    "subcategory": "experimental",
+    "character_tags": ["experimental", "self_oscillation", "weird"],
+    "aliases": ["Fuzz Factory"],
+    "popularity": 50
+  },
+  {
+    "brand": "EarthQuaker Devices",
+    "model": "Hoof",
+    "category": "fuzz",
+    "subcategory": "muff_variant",
+    "character_tags": ["muff_variant", "germanium_silicon_hybrid"],
+    "aliases": ["Hoof"],
+    "popularity": 55
+  },
+  {
+    "brand": "Boss",
+    "model": "FZ-5 Fuzz",
+    "category": "fuzz",
+    "subcategory": "modeling",
+    "character_tags": ["digital_modeling", "three_voices", "budget"],
+    "aliases": ["FZ-5"],
+    "popularity": 40
+  },
+  {
+    "brand": "Boss",
+    "model": "DD-7 Digital Delay",
+    "category": "delay",
+    "subcategory": "digital",
+    "character_tags": ["digital", "clean_repeats", "tap_tempo"],
+    "typical_settings": { "level": "5", "feedback": "3-5", "time": "varies", "mode": "modulate or analog" },
+    "aliases": ["DD-7"],
+    "popularity": 80
+  },
+  {
+    "brand": "Boss",
+    "model": "DD-200 Digital Delay",
+    "category": "delay",
+    "subcategory": "digital_modern",
+    "character_tags": ["digital", "presets", "tap_tempo"],
+    "aliases": ["DD-200"],
+    "popularity": 70
+  },
+  {
+    "brand": "Strymon",
+    "model": "TimeLine",
+    "category": "delay",
+    "subcategory": "high_end",
+    "character_tags": ["high_end", "many_algorithms", "studio"],
+    "typical_settings": { "mix": "30%", "feedback": "3-5", "time": "varies" },
+    "aliases": ["Timeline"],
+    "popularity": 80
+  },
+  {
+    "brand": "EHX",
+    "model": "Deluxe Memory Man",
+    "category": "delay",
+    "subcategory": "analog",
+    "character_tags": ["analog", "warm", "modulation_built_in"],
+    "aliases": ["Memory Man"],
+    "popularity": 65
+  },
+  {
+    "brand": "MXR",
+    "model": "Carbon Copy",
+    "category": "delay",
+    "subcategory": "analog",
+    "character_tags": ["analog", "warm", "dark_repeats"],
+    "typical_settings": { "regen": "3-5", "mix": "4", "delay": "varies" },
+    "aliases": ["Carbon Copy"],
+    "popularity": 75
+  },
+  {
+    "brand": "EarthQuaker Devices",
+    "model": "Avalanche Run V2",
+    "category": "delay",
+    "subcategory": "delay_reverb_combo",
+    "character_tags": ["delay_reverb_combo", "ambient"],
+    "aliases": ["Avalanche Run"],
+    "popularity": 60
+  },
+  {
+    "brand": "TC Electronic",
+    "model": "Flashback 2",
+    "category": "delay",
+    "subcategory": "digital",
+    "character_tags": ["digital", "toneprint", "budget"],
+    "aliases": ["Flashback"],
+    "popularity": 65
+  },
+  {
+    "brand": "Walrus Audio",
+    "model": "ARP-87",
+    "category": "delay",
+    "subcategory": "modern_digital",
+    "character_tags": ["modern_digital", "ambient_capable"],
+    "aliases": ["ARP-87"],
+    "popularity": 50
+  },
+  {
+    "brand": "Strymon",
+    "model": "BigSky",
+    "category": "reverb",
+    "subcategory": "high_end",
+    "character_tags": ["high_end", "many_algorithms", "ambient"],
+    "typical_settings": { "mix": "30%", "decay": "varies", "type": "Hall or Plate" },
+    "aliases": ["BigSky", "Big Sky"],
+    "popularity": 85
+  },
+  {
+    "brand": "Boss",
+    "model": "RV-6 Reverb",
+    "category": "reverb",
+    "subcategory": "digital",
+    "character_tags": ["digital", "8_modes", "compact"],
+    "typical_settings": { "level": "5", "tone": "5", "time": "5", "mode": "Hall or Plate" },
+    "aliases": ["RV-6"],
+    "popularity": 80
+  },
+  {
+    "brand": "EHX",
+    "model": "Holy Grail Plus",
+    "category": "reverb",
+    "subcategory": "spring_hall_room",
+    "character_tags": ["3_modes", "compact", "budget"],
+    "aliases": ["Holy Grail"],
+    "popularity": 60
+  },
+  {
+    "brand": "EarthQuaker Devices",
+    "model": "Afterneath V3",
+    "category": "reverb",
+    "subcategory": "ambient",
+    "character_tags": ["ambient", "experimental", "shimmer"],
+    "aliases": ["Afterneath"],
+    "popularity": 60
+  },
+  {
+    "brand": "TC Electronic",
+    "model": "Hall of Fame 2",
+    "category": "reverb",
+    "subcategory": "digital",
+    "character_tags": ["digital", "toneprint", "mash_footswitch"],
+    "aliases": ["HOF 2", "Hall of Fame"],
+    "popularity": 70
+  },
+  {
+    "brand": "Walrus Audio",
+    "model": "Slö",
+    "category": "reverb",
+    "subcategory": "ambient",
+    "character_tags": ["ambient", "lush", "modulated"],
+    "aliases": ["Slo"],
+    "popularity": 55
+  },
+  {
+    "brand": "Boss",
+    "model": "CE-2W Chorus",
+    "category": "chorus",
+    "subcategory": "analog",
+    "character_tags": ["analog", "lush", "vintage_voicing"],
+    "typical_settings": { "rate": "4", "depth": "5" },
+    "aliases": ["CE-2", "CE-2W"],
+    "popularity": 70
+  },
+  {
+    "brand": "EHX",
+    "model": "Small Clone",
+    "category": "chorus",
+    "subcategory": "analog",
+    "character_tags": ["analog", "thick", "kurt_cobain"],
+    "typical_settings": { "rate": "3-5", "depth": "switch_on/off" },
+    "aliases": ["Small Clone"],
+    "popularity": 65
+  },
+  {
+    "brand": "MXR",
+    "model": "M134 Stereo Chorus",
+    "category": "chorus",
+    "subcategory": "analog",
+    "character_tags": ["analog", "stereo", "rich"],
+    "aliases": ["MXR Stereo Chorus"],
+    "popularity": 50
+  },
+  {
+    "brand": "TC Electronic",
+    "model": "Corona Chorus",
+    "category": "chorus",
+    "subcategory": "digital",
+    "character_tags": ["digital", "toneprint", "clean"],
+    "aliases": ["Corona"],
+    "popularity": 55
+  },
+  {
+    "brand": "MXR",
+    "model": "Phase 90",
+    "category": "phaser",
+    "subcategory": "classic",
+    "character_tags": ["classic", "swirly", "vintage", "evh"],
+    "typical_settings": { "speed": "4-6" },
+    "aliases": ["Phase 90"],
+    "popularity": 80
+  },
+  {
+    "brand": "EHX",
+    "model": "Small Stone",
+    "category": "phaser",
+    "subcategory": "vintage",
+    "character_tags": ["vintage", "watery", "70s"],
+    "aliases": ["Small Stone"],
+    "popularity": 60
+  },
+  {
+    "brand": "Boss",
+    "model": "PH-3 Phase Shifter",
+    "category": "phaser",
+    "subcategory": "digital",
+    "character_tags": ["digital", "many_modes", "tap_tempo"],
+    "aliases": ["PH-3"],
+    "popularity": 55
+  },
+  {
+    "brand": "MXR",
+    "model": "M117 Flanger",
+    "category": "flanger",
+    "subcategory": "classic",
+    "character_tags": ["classic", "jet_engine"],
+    "typical_settings": { "manual": "5", "width": "5", "speed": "3", "regen": "5" },
+    "aliases": ["MXR Flanger"],
+    "popularity": 60
+  },
+  {
+    "brand": "EHX",
+    "model": "Electric Mistress",
+    "category": "flanger",
+    "subcategory": "vintage",
+    "character_tags": ["vintage", "andy_summers", "the_police"],
+    "aliases": ["Electric Mistress"],
+    "popularity": 55
+  },
+  {
+    "brand": "Dunlop",
+    "model": "Cry Baby GCB95",
+    "category": "wah",
+    "subcategory": "classic",
+    "character_tags": ["classic", "vocal", "expressive"],
+    "aliases": ["Cry Baby", "GCB95"],
+    "popularity": 95
+  },
+  {
+    "brand": "Vox",
+    "model": "V847 Wah",
+    "category": "wah",
+    "subcategory": "vintage",
+    "character_tags": ["vintage", "warmer_than_crybaby"],
+    "aliases": ["V847"],
+    "popularity": 70
+  },
+  {
+    "brand": "Morley",
+    "model": "Bad Horsie 2",
+    "category": "wah",
+    "subcategory": "switchless",
+    "character_tags": ["switchless", "vai", "modern"],
+    "aliases": ["Bad Horsie"],
+    "popularity": 50
+  },
+  {
+    "brand": "Boss",
+    "model": "CS-3 Compression Sustainer",
+    "category": "compressor",
+    "subcategory": "digital",
+    "character_tags": ["digital", "punchy", "country_picking"],
+    "typical_settings": { "level": "5", "tone": "5", "attack": "5", "sustain": "4-7" },
+    "aliases": ["CS-3"],
+    "popularity": 70
+  },
+  {
+    "brand": "Keeley",
+    "model": "C4 Compressor",
+    "category": "compressor",
+    "subcategory": "studio",
+    "character_tags": ["studio", "transparent", "boutique"],
+    "aliases": ["Keeley C4", "C4"],
+    "popularity": 60
+  },
+  {
+    "brand": "MXR",
+    "model": "Dyna Comp",
+    "category": "compressor",
+    "subcategory": "classic",
+    "character_tags": ["classic", "punchy", "country", "70s"],
+    "typical_settings": { "output": "5", "sensitivity": "4-7" },
+    "aliases": ["Dyna Comp"],
+    "popularity": 75
+  },
+  {
+    "brand": "Walrus Audio",
+    "model": "Deep Six V3",
+    "category": "compressor",
+    "subcategory": "studio",
+    "character_tags": ["studio", "transparent", "modern"],
+    "aliases": ["Deep Six"],
+    "popularity": 55
+  },
+  {
+    "brand": "MXR",
+    "model": "Micro Amp",
+    "category": "boost",
+    "subcategory": "clean_boost",
+    "character_tags": ["clean_boost", "transparent", "+26db"],
+    "typical_settings": { "gain": "3-7" },
+    "aliases": ["Micro Amp"],
+    "popularity": 70
+  },
+  {
+    "brand": "EHX",
+    "model": "LPB-1",
+    "category": "boost",
+    "subcategory": "clean_boost",
+    "character_tags": ["clean_boost", "vintage_circuit"],
+    "aliases": ["LPB-1"],
+    "popularity": 50
+  },
+  {
+    "brand": "Xotic",
+    "model": "EP Booster",
+    "category": "boost",
+    "subcategory": "echoplex_preamp",
+    "character_tags": ["echoplex_preamp", "transparent", "always_on"],
+    "typical_settings": { "level": "9 or 12 o'clock" },
+    "aliases": ["EP Booster"],
+    "popularity": 70
+  },
+  {
+    "brand": "MXR",
+    "model": "M108 Ten Band EQ",
+    "category": "eq",
+    "subcategory": "graphic",
+    "character_tags": ["10_band", "tone_shaping"],
+    "aliases": ["10 Band EQ"],
+    "popularity": 55
+  },
+  {
+    "brand": "Boss",
+    "model": "GE-7 Equalizer",
+    "category": "eq",
+    "subcategory": "graphic",
+    "character_tags": ["7_band", "compact", "boost_capable"],
+    "aliases": ["GE-7"],
+    "popularity": 65
+  },
+  {
+    "brand": "Boss",
+    "model": "TR-2 Tremolo",
+    "category": "tremolo",
+    "subcategory": "classic",
+    "character_tags": ["classic", "bouncy"],
+    "typical_settings": { "rate": "4-6", "depth": "5-7", "wave": "soft" },
+    "aliases": ["TR-2"],
+    "popularity": 65
+  },
+  {
+    "brand": "Digitech",
+    "model": "Whammy V",
+    "category": "pitch",
+    "subcategory": "harmonizer",
+    "character_tags": ["pitch_shift", "octave", "tom_morello", "white_stripes"],
+    "aliases": ["Whammy"],
+    "popularity": 70
+  },
+  {
+    "brand": "Electro-Harmonix",
+    "model": "POG2",
+    "category": "pitch",
+    "subcategory": "octave",
+    "character_tags": ["octave", "polyphonic", "organ_like"],
+    "aliases": ["POG2", "POG"],
+    "popularity": 60
+  }
+]
