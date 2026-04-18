@@ -1,0 +1,73 @@
+# ToneBridge Tier A — song seed list (team-curated)
+#
+# Usage:
+#   1. Copy this file to `tier_a_songs.txt` in the same folder.
+#   2. Add your songs (one per line): Song Title | Artist Name
+#   3. Run `npm run seed:tier-a-list` (full) or `npm run seed:tier-a-list -- --pilot` (first 20).
+#
+# Format:
+#   - One song per line: `Song Title | Artist`
+#   - '|' separates song from artist; extra whitespace is trimmed.
+#   - Lines starting with '#' are comments; blank lines are ignored.
+#   - Duplicates (same song+artist, case-insensitive) are deduplicated.
+#
+# Notes:
+#   - Do NOT pre-fill section / toneType / genre — the pipeline extracts those
+#     from sources. Over-constraining here can hurt Phase 3 accuracy.
+#   - For the pilot, add `[pilot]` anywhere on the line to force-include it in
+#     the pilot set (otherwise pilot = first 20 non-flagged songs).
+#   - Aim for ~300 total for Tier A, ~1,200 for Tier B. Balance by genre for
+#     pipeline stress coverage (classic rock / metal / alt / blues / funk /
+#     indie / pop-rock / K-rock).
+
+# ── Classic Rock ──────────────────────────────────────────────
+Stairway to Heaven | Led Zeppelin  [pilot]
+Sweet Child O Mine | Guns N Roses  [pilot]
+Back in Black | AC/DC  [pilot]
+Bohemian Rhapsody | Queen  [pilot]
+Purple Haze | Jimi Hendrix  [pilot]
+Comfortably Numb | Pink Floyd  [pilot]
+Hotel California | Eagles
+Free Bird | Lynyrd Skynyrd
+Smoke on the Water | Deep Purple
+Eruption | Van Halen
+
+# ── Metal ─────────────────────────────────────────────────────
+Master of Puppets | Metallica  [pilot]
+Enter Sandman | Metallica  [pilot]
+Run to the Hills | Iron Maiden
+Holy Wars | Megadeth
+Raining Blood | Slayer
+Walk | Pantera
+Painkiller | Judas Priest
+Chop Suey | System of a Down  [pilot]
+Pull Me Under | Dream Theater
+
+# ── Alt / Modern ──────────────────────────────────────────────
+Smells Like Teen Spirit | Nirvana  [pilot]
+Seven Nation Army | The White Stripes  [pilot]
+Creep | Radiohead  [pilot]
+Everlong | Foo Fighters  [pilot]
+Do I Wanna Know | Arctic Monkeys  [pilot]
+Plug In Baby | Muse
+Last Nite | The Strokes
+Black Hole Sun | Soundgarden
+Man in the Box | Alice in Chains
+
+# ── Blues ─────────────────────────────────────────────────────
+Pride and Joy | Stevie Ray Vaughan  [pilot]
+The Thrill Is Gone | B.B. King
+Cocaine | Eric Clapton
+
+# ── Funk / R&B ────────────────────────────────────────────────
+Superstition | Stevie Wonder  [pilot]
+Under the Bridge | Red Hot Chili Peppers  [pilot]
+Californication | Red Hot Chili Peppers
+
+# ── Indie / Pop-Rock ──────────────────────────────────────────
+Where Is My Mind | Pixies  [pilot]
+Welcome to the Black Parade | My Chemical Romance  [pilot]
+Wonderwall | Oasis
+
+# ── K-Rock (optional — coverage stress) ───────────────────────
+Still Life | Nell  [pilot]
